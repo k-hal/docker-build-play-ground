@@ -15,21 +15,21 @@ jobs:
         uses: docker/setup-buildx-action@v3
       -
         name: Build and push 1
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: ./1-base/Dockerfile
           tags: my-image:1-base
       -
         name: Build and push 2
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: ./2-backslash/Dockerfile
           tags: my-image:2-backslash
       -
         name: Build and push 3
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: ./3-heredocs/Dockerfile
