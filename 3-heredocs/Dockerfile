@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.17-labs
-FROM amazonlinux:2
+FROM amazonlinux:2023
 
 RUN <<EOF
   yum update -y
