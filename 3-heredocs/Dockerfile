@@ -1,4 +1,4 @@
-# syntax = docker/dockerfile:1.17-labs
+# syntax = docker/dockerfile:1.20-labs
 FROM amazonlinux:2
 
 RUN <<EOF
