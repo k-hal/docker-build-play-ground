@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM amazonlinux:2023
 
 RUN yum update -y
 RUN yum install -y git
